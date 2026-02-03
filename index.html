@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Example Site - Interactive Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>JavaScript Example Site</h1>
+        <p>A showcase of dynamic and interactive web features</p>
+    </header>
+
+    <main>
+        <section class="feature-section">
+            <h2>Interactive Counter</h2>
+            <div class="counter-container">
+                <button id="decrementBtn" class="btn btn-secondary">-</button>
+                <span id="counterValue" class="counter-display">0</span>
+                <button id="incrementBtn" class="btn btn-primary">+</button>
+                <button id="resetBtn" class="btn btn-accent">Reset</button>
+            </div>
+        </section>
+
+        <section class="feature-section">
+            <h2>Dynamic List</h2>
+            <div class="list-container">
+                <input type="text" id="itemInput" placeholder="Enter an item..." class="input-field">
+                <button id="addItemBtn" class="btn btn-primary">Add Item</button>
+                <ul id="itemList" class="dynamic-list"></ul>
+            </div>
+        </section>
+
+        <section class="feature-section">
+            <h2>Color Theme Switcher</h2>
+            <div class="theme-container">
+                <button class="btn theme-btn" data-theme="light">Light</button>
+                <button class="btn theme-btn" data-theme="dark">Dark</button>
+                <button class="btn theme-btn" data-theme="blue">Blue</button>
+                <button class="btn theme-btn" data-theme="green">Green</button>
+            </div>
+        </section>
+
+        <section class="feature-section">
+            <h2>Interactive Animation</h2>
+            <div class="animation-container">
+                <div id="animatedBox" class="box"></div>
+                <button id="animateBtn" class="btn btn-accent">Animate!</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 JS Example Site - Demonstrating JavaScript, HTML, and CSS</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
