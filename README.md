@@ -14,6 +14,7 @@ This example site demonstrates:
 - **Dynamic List** - Add and remove items dynamically with fade animations
 - **Color Theme Switcher** - Multiple theme options with localStorage persistence
 - **Interactive Animations** - CSS animations triggered by JavaScript events
+- **Data Visualization** - Interactive Plotly charts with multiple data curves
 
 ## Technologies Used
 
@@ -21,3 +22,4 @@ This example site demonstrates:
 - CSS3 (with animations and transitions)
 - Vanilla JavaScript (ES6+)
 - localStorage API
+- Plotly.js for data visualization
