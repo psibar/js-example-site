@@ -120,7 +120,7 @@ window.addEventListener('load', () => {
     console.log('- Dynamic DOM manipulation');
     console.log('- Theme switching with localStorage');
     console.log('- CSS animations triggered by JavaScript');
-    console.log('- Data visualization with Plotly');
+    console.log('- Data visualization with Canvas');
 });
 
 // Plotly-style chart functionality using Canvas
